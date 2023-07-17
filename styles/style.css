@@ -1,0 +1,64 @@
+/* import modules */
+@import 'modules/header.css';
+@import 'modules/main.css';
+@import 'modules/footer.css';
+
+
+/* Design System */
+:root {
+
+    /* Colors */
+    --back-color-app: #CDCCDB;
+    --primary-color: #E09535;
+    --secondary-color: #222643;
+    --dark-gray: #28282E;
+    --white: #E7E7E7;
+    
+    
+    /* Text configuration */
+    --body-font: 'Kufam', sans-serif;
+    
+
+    --font-text-weight: 300;
+    --font-title-weight: 600;
+    
+    --mobile-font-text-size: 12px;
+    --mobile-font-h1-size: 26px;
+    --mobile-font-h2-size: 20px;
+
+    --tablet-font-text-size: 16px;
+    --tablet-font-h1-size: 32px;
+    --tablet-font-h2-size: 26px;
+
+    --desktop-font-text-size: 20px;
+    --desktop-font-h1-size: 50px;
+    --desktop-font-h2-size: 32px;
+
+    /* button configuration */
+    --button-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+/* General CSS */
+*, 
+p {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: var(--body-font);
+  font-weight: var(--font-text-weight);
+  font-size: var(--mobile-font-text-size);
+  box-sizing: border-box;
+  background-color: var(--back-color-app);
+}
+
+h1 {
+  font-weight: var(--font-title-weight);
+  color: var(--white);
+}
+
+h2 {
+  font-size: var(--mobile-font-h2-size);
+  font-weight: var(--font-title-weight);
+}
