@@ -1,0 +1,107 @@
+header {
+    height: 45vh;
+    background: no-repeat url('../../images/header-background/beautiful-shining-stars-night-sky.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    text-align: center;
+}
+
+.stars{
+    height: 100%;
+}
+
+    .stars__absolute {
+        position: absolute;
+    }
+
+    .stars__sun {
+        height: 300px;
+        width: 300px;
+        top: -20vw;
+        left: -40vw;
+    }
+
+    .stars__mercury {
+        height: 10px;
+        width: 10px;
+        top: 25vw;
+        left: 30vw;
+    }
+
+    .stars__venus,
+    .stars__mars {
+        height: 12px;
+        width: 12px;
+    }
+
+    .stars__venus {
+        top: 30vw;
+        left: 33vw;
+    }
+
+    .stars__earth {
+        height: auto;
+        width: 15px;
+        top: 32vw;
+        left: 38vw;
+    }
+
+    .stars__mars {
+        top: 30vw;
+        left: 44vw;
+    }
+
+    .stars__jupiter {
+        height: 50px;
+        width: 50px;
+        top: 30vw;
+        left: 50vw;
+    }
+
+    .stars__saturn {
+        height: 35px;
+        width: auto;
+        top: 25vw;
+        left: 64vw;
+    }
+
+    .stars__uranus {
+        height: 30px;
+        width: 30px;
+        top: 23vw;
+        left: 82vw;
+    }
+
+    .stars__neptune {
+        height: 20px;
+        width: 20px;
+        top: 20vw;
+        left: 92vw;
+    }
+
+.sustain {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--primary-color);
+    width: 215px;
+    height: 45px;
+    color: var(--white);
+    border: none;
+    border-radius: 10px;
+    margin: 10px 0 30px 0;
+    box-shadow: var(--button-shadow);
+    padding: 10px;
+}
+
+    .sustain__icon {
+        height: 30px;
+        width: 30px;
+    }
+
+    .sustain__text {
+        font-size: 18px;
+    }
