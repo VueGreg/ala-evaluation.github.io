@@ -1,0 +1,118 @@
+nav,
+nav h2 {
+    margin: 20px;
+}
+
+.navbar__icon {
+    height: 50px;
+    width: 50px;
+}
+
+.nav {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    height: 20vh;
+    width: auto;
+}
+
+    .nav__link {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin: 20px;
+        padding: 52px;
+        box-shadow: var(--button-shadow);
+        height: 104px;
+        width: 104px;
+        text-align: center;
+        background-color: var(--white);
+    }
+    
+/* section */   
+section {
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+    .section__text {
+        text-align: center;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .section__img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 275px;
+    }
+
+    .section__img-add{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        width: 50px;
+        border-radius: 100%;
+        background-color: var(--primary-color);
+        opacity: 0.6;
+        box-shadow: var(--button-shadow);
+        transition: all 0.3s ease-in-out;
+    }
+
+    .section__img-add img {
+        height: 35px;
+        width: 35px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .section__img-add p {
+        display: none;
+        color: var(--white);
+        font-size: 16px;
+    }
+
+/* section hovered */
+    .section__img-add:hover {
+        width: 215px;
+        border-radius: 10px;
+        opacity: 1;
+    }
+
+    .section__img-add:hover img {
+        height: 0;
+        width: 0;
+    }
+
+    .section__img-add:hover p {
+        display: block;
+    }
+
+/* section images */
+#observe__img {
+    background: no-repeat url('../../images/illustration/les-nuits-des-etoiles-grand-rendez-vous-astronomique-veut-voir-plus-loin.jpg');
+    background-size: cover;
+}
+
+#initiation__img {
+    background: no-repeat url('../../images/illustration/stelescopes_MG_2232.jpg');
+    background-size: cover;
+}
+
+#school__img {
+    background: no-repeat url('../../images/illustration/3W2A9203.JPG');
+    background-size: cover;
+}
+
+/* Section forms */
+#asked {
+    height: 200px;
+}
+
+.btn {
+    background-color: var(--secondary-color);
+    color: var(--white);
+    width: 100%;
+}
