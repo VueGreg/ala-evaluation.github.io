@@ -6,7 +6,7 @@ footer {
 .container {
     display: flex;
     justify-content: space-between;
-    width: 80vw;
+    width: 70vw;
     list-style: none;
     padding: 20px;
 }
@@ -14,4 +14,5 @@ footer {
     .container__img {
         height: 30px;
         width: 30px;
+        margin-top: 1em;
     }
