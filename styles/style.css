@@ -62,3 +62,13 @@ h2 {
   font-size: var(--mobile-font-h2-size);
   font-weight: var(--font-title-weight);
 }
+
+@media screen and (min-width: 400px) {
+  body {
+    font-size: var(--tablet-font-text-size);
+  }
+  
+  h2 {
+    font-size: var(--tablet-font-h2-size);
+  }
+}

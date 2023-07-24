@@ -120,3 +120,27 @@ section {
 .formular {
     margin: 0;
 }
+
+@media screen and (min-width: 600px) {
+    nav h2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav {
+        justify-content: center;
+        font-size: var( --mobile-font-text-size);
+    }
+
+    .section__img{
+        height: 500px;
+    }
+        .section__img-add{
+            height: 80px;
+            width: 80px;
+        }
+
+        .section__img-add:hover {
+            width: 342px;
+        }
+}
