@@ -27,3 +27,13 @@ footer {
         width: 50vw;
     }
 }
+
+@media screen and (min-width: 1200px) {
+    footer {
+        margin-top: 10rem;
+    }
+
+    .container {
+        width: 30vh;
+    }
+}

@@ -1,6 +1,7 @@
 nav,
 nav h2 {
-    margin: 20px;
+    margin: 1rem;
+    margin-top: 3rem;
 }
 
 .navbar__icon {
@@ -32,14 +33,20 @@ nav h2 {
     
 /* section */   
 section {
-    margin-top: 30px;
-    margin-bottom: 100px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
     .section__text {
         text-align: center;
-        margin: 10px;
-        padding: 10px;
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+    .section__title {
+        text-align: center;
+        margin-top: 1rem;
+        padding-top: 1rem;
     }
 
     .section__img {
@@ -142,5 +149,15 @@ section {
 
         .section__img-add:hover {
             width: 342px;
+        }
+}
+
+@media screen and (min-width: 1200px) {
+
+    section {
+        margin-bottom: 10rem;
+    }
+        .section__img{
+            height: 800px;
         }
 }

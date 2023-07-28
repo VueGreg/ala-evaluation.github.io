@@ -30,7 +30,7 @@
     --tablet-font-h1-size: 32px;
     --tablet-font-h2-size: 26px;
 
-    --desktop-font-text-size: 20px;
+    --desktop-font-text-size: 18px;
     --desktop-font-h1-size: 50px;
     --desktop-font-h2-size: 32px;
 
@@ -70,5 +70,19 @@ h2 {
   
   h2 {
     font-size: var(--tablet-font-h2-size);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    font-size: var(--desktop-font-text-size);
+  }
+  
+  h2 {
+    font-size: var(--desktop-font-h2-size);
+  }
+
+  h1 {
+    font-size: var(--desktop-font-h1-size);
   }
 }
