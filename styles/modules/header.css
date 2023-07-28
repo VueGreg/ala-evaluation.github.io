@@ -142,6 +142,7 @@ header h1 {
     width: 100%;
 }
 
+/* Format tablet */
 @media screen and (min-width: 600px) {
     header {
         flex-direction: row;
@@ -167,4 +168,255 @@ header h1 {
         top: -4rem;
         left: 5rem;
     }
+}
+
+/* Format desktop */
+@media screen and (min-width: 1200px) {
+    header {
+        height: 70vh;
+    }
+
+    header h1 {
+        width: 25vw;
+    }
+
+    .stars__sun {
+        top: 15vh;
+        left: 25vw;
+        z-index: 2;
+    }
+
+    .stars__desktop {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        transform: scaleX(0.33);
+    }
+    
+    /* Rotate Mercury */
+    .stars__mercury-deform  {
+        width: 75px;
+        height: 75px;
+        transform: scaleX(3);
+        position: absolute;
+        top: 40%;
+        left: 41.5%;
+        border-radius: 50%;
+        animation: index 30s linear infinite;
+        border: 1px solid white;
+    }
+    
+    .stars__mercury-rotate {
+        width: 100%;
+        height: 100%;
+        animation: circleR 30s infinite linear;    
+        transform-origin: 50% 50%;
+    }
+    
+    .stars__mercury-counterrotate {
+        width: 10px;
+        height: 10px;
+        animation: ccircle 30s infinite linear;    
+    }
+
+    /* Rotate Venus */
+    .stars__venus-deform  {
+        width: 85px;
+        height: 85px;
+        transform: scaleX(3);
+        position: absolute;
+        top: 40%;
+        left: 41%;
+        border-radius: 50%;
+        animation: index 34s linear infinite;
+        border: 1px solid white;
+    }
+    
+    .stars__venus-rotate {
+        width: 100%;
+        height: 100%;
+        animation: circleR 34s infinite linear;    
+        transform-origin: 50% 50%;
+    }
+    
+    .stars__venus-counterrotate {
+        width: 12px;
+        height: 12px;
+        animation: ccircle 34s infinite linear;    
+    }
+
+    /* Rotate Earth */
+    .stars__earth-deform  {
+        width: 100px;
+        height: 100px;
+        transform: scaleX(3);
+        position: absolute;
+        top: 40%;
+        left: 41%;
+        border-radius: 50%;
+        animation: index 38s linear infinite;
+        border: 1px solid white;
+    }
+    
+    .stars__earth-rotate {
+        width: 100%;
+        height: 100%;
+        animation: circleR 38s infinite linear;    
+        transform-origin: 50% 50%;
+    }
+    
+    .stars__earth-counterrotate {
+        height: auto;
+        width: 15px;
+        animation: ccircle 38s infinite linear;    
+    }
+
+    /* Rotate Mars */
+    .stars__mars-deform  {
+        width: 120px;
+        height: 120px;
+        transform: scaleX(3);
+        position: absolute;
+        top: 40%;
+        left: 41%;
+        border-radius: 50%;
+        animation: index 40s linear infinite;
+        border: 1px solid white;
+    }
+    
+    .stars__mars-rotate {
+        width: 100%;
+        height: 100%;
+        animation: circleR 40s infinite linear;    
+        transform-origin: 50% 50%;
+    }
+    
+    .stars__mars-counterrotate {
+        height: 12px;
+        width: 12px;
+        animation: ccircle 40s infinite linear;    
+    }
+
+    /* Rotate Jupiter */
+    .stars__jupiter-deform  {
+        width: 200px;
+        height: 200px;
+        transform: scaleX(3);
+        position: absolute;
+        top: 38%;
+        left: 36%;
+        border-radius: 50%;
+        animation: index 50s linear infinite;
+        border: 1px solid white;
+    }
+    
+    .stars__jupiter-rotate {
+        width: 100%;
+        height: 100%;
+        animation: circleR 50s infinite linear;    
+        transform-origin: 50% 50%;
+    }
+    
+    .stars__jupiter-counterrotate {
+        height: 50px;
+        width: 50px;
+        animation: ccircle 50s infinite linear;    
+    }
+
+
+    /* Rotate Saturn */
+    .stars__saturn-deform  {
+        width: 230px;
+        height: 230px;
+        transform: scaleX(3);
+        position: absolute;
+        top: 34%;
+        left: 34%;
+        border-radius: 50%;
+        animation: index 50s linear infinite;
+        border: 1px solid white;
+    }
+    
+    .stars__saturn-rotate {
+        width: 100%;
+        height: 100%;
+        animation: circleR 50s infinite linear;    
+        transform-origin: 50% 50%;
+    }
+    
+    .stars__saturn-counterrotate {
+        height: 35px;
+        width: 50px;
+        animation: ccircle 50s infinite linear;    
+    }
+
+    /* Rotate Uranus */
+    .stars__uranus-deform  {
+        width: 250px;
+        height: 250px;
+        transform: scaleX(3);
+        position: absolute;
+        top: 34%;
+        left: 34%;
+        border-radius: 50%;
+        animation: index 58s linear infinite;
+        border: 1px solid white;
+    }
+    
+    .stars__uranus-rotate {
+        width: 100%;
+        height: 100%;
+        animation: circleR 58s infinite linear;    
+        transform-origin: 50% 50%;
+    }
+    
+    .stars__uranus-counterrotate {
+        height: 30px;
+        width: 30px;
+        animation: ccircle 58s infinite linear;    
+    }
+
+
+    /* Rotate Neptun */
+    .stars__neptune-deform  {
+        width: 300px;
+        height: 300px;
+        transform: scaleX(3);
+        position: absolute;
+        top: 34%;
+        left: 34%;
+        border-radius: 50%;
+        animation: index 62s linear infinite;
+        border: 1px solid white;
+    }
+    
+    .stars__neptune-rotate {
+        width: 100%;
+        height: 100%;
+        animation: circleR 62s infinite linear;    
+        transform-origin: 50% 50%;
+    }
+    
+    .stars__neptune-counterrotate {
+        height: 30px;
+        width: 30px;
+        animation: ccircle 62s infinite linear;    
+    }
+        
+
+    /* @keyframes animation planet  */
+    @keyframes circleR {
+        0% {transform: rotateZ(0deg)}
+        100% {transform: rotateZ(360deg)}
+    }
+    
+    @keyframes ccircle {
+        0% {transform: rotateZ(360deg)}
+        100% {transform: rotateZ(0deg)}
+    }
+    
+    @keyframes index {
+        60% {z-index: 3;}
+    }
+
 }
