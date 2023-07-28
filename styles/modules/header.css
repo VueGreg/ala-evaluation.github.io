@@ -203,13 +203,12 @@ header h1 {
         left: 41.5%;
         border-radius: 50%;
         animation: index 30s linear infinite;
-        border: 1px solid white;
     }
     
     .stars__mercury-rotate {
         width: 100%;
         height: 100%;
-        animation: circleR 30s infinite linear;    
+        animation: circleR 30s infinite linear;
         transform-origin: 50% 50%;
     }
     
@@ -225,11 +224,10 @@ header h1 {
         height: 85px;
         transform: scaleX(3);
         position: absolute;
-        top: 40%;
+        top: 38.5%;
         left: 41%;
         border-radius: 50%;
         animation: index 34s linear infinite;
-        border: 1px solid white;
     }
     
     .stars__venus-rotate {
@@ -251,11 +249,10 @@ header h1 {
         height: 100px;
         transform: scaleX(3);
         position: absolute;
-        top: 40%;
-        left: 41%;
+        top: 36%;
+        left: 40%;
         border-radius: 50%;
         animation: index 38s linear infinite;
-        border: 1px solid white;
     }
     
     .stars__earth-rotate {
@@ -277,24 +274,23 @@ header h1 {
         height: 120px;
         transform: scaleX(3);
         position: absolute;
-        top: 40%;
-        left: 41%;
+        top: 34%;
+        left: 39%;
         border-radius: 50%;
-        animation: index 40s linear infinite;
-        border: 1px solid white;
+        animation: index 42s linear infinite;
     }
     
     .stars__mars-rotate {
         width: 100%;
         height: 100%;
-        animation: circleR 40s infinite linear;    
+        animation: circleR 42s infinite linear;    
         transform-origin: 50% 50%;
     }
     
     .stars__mars-counterrotate {
         height: 12px;
         width: 12px;
-        animation: ccircle 40s infinite linear;    
+        animation: ccircle 42s infinite linear;    
     }
 
     /* Rotate Jupiter */
@@ -303,11 +299,10 @@ header h1 {
         height: 200px;
         transform: scaleX(3);
         position: absolute;
-        top: 38%;
+        top: 28%;
         left: 36%;
         border-radius: 50%;
         animation: index 50s linear infinite;
-        border: 1px solid white;
     }
     
     .stars__jupiter-rotate {
@@ -326,41 +321,39 @@ header h1 {
 
     /* Rotate Saturn */
     .stars__saturn-deform  {
-        width: 230px;
-        height: 230px;
+        width: 250px;
+        height: 250px;
         transform: scaleX(3);
         position: absolute;
-        top: 34%;
-        left: 34%;
+        top: 26%;
+        left: 32%;
         border-radius: 50%;
-        animation: index 50s linear infinite;
-        border: 1px solid white;
+        animation: index 54s linear infinite;
     }
     
     .stars__saturn-rotate {
         width: 100%;
         height: 100%;
-        animation: circleR 50s infinite linear;    
+        animation: circleR 54s infinite linear;    
         transform-origin: 50% 50%;
     }
     
     .stars__saturn-counterrotate {
         height: 35px;
         width: 50px;
-        animation: ccircle 50s infinite linear;    
+        animation: ccircle 54s infinite linear;    
     }
 
     /* Rotate Uranus */
     .stars__uranus-deform  {
-        width: 250px;
-        height: 250px;
+        width: 280px;
+        height: 280px;
         transform: scaleX(3);
         position: absolute;
-        top: 34%;
-        left: 34%;
+        top: 24%;
+        left: 32%;
         border-radius: 50%;
         animation: index 58s linear infinite;
-        border: 1px solid white;
     }
     
     .stars__uranus-rotate {
@@ -379,15 +372,14 @@ header h1 {
 
     /* Rotate Neptun */
     .stars__neptune-deform  {
-        width: 300px;
-        height: 300px;
+        width: 320px;
+        height: 320px;
         transform: scaleX(3);
         position: absolute;
-        top: 34%;
-        left: 34%;
+        top: 22%;
+        left: 30%;
         border-radius: 50%;
         animation: index 62s linear infinite;
-        border: 1px solid white;
     }
     
     .stars__neptune-rotate {
@@ -406,17 +398,17 @@ header h1 {
 
     /* @keyframes animation planet  */
     @keyframes circleR {
-        0% {transform: rotateZ(0deg)}
-        100% {transform: rotateZ(360deg)}
+        0% {transform: rotateZ(90deg)}
+        100% {transform: rotateZ(450deg)}
     }
     
     @keyframes ccircle {
-        0% {transform: rotateZ(360deg)}
-        100% {transform: rotateZ(0deg)}
+        0% {transform: rotateZ(450deg)}
+        100% {transform: rotateZ(90deg)}
     }
     
     @keyframes index {
-        60% {z-index: 3;}
+        30% {z-index: 3;}
     }
 
 }
