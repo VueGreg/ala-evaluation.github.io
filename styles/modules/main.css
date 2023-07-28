@@ -19,7 +19,7 @@ nav h2 {
     .nav__link {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
         position: relative;
         margin: 20px;
@@ -29,6 +29,11 @@ nav h2 {
         width: 104px;
         text-align: center;
         background-color: var(--white);
+    }
+
+    .nav__link a {
+        text-decoration: none;
+        color: var(--dark-gray);
     }
     
 /* section */   
@@ -154,8 +159,68 @@ section {
 
 @media screen and (min-width: 1200px) {
 
+    nav {
+        position: absolute;
+        transform: translateY(-150%);
+        width: 100%;
+        margin: 0;
+        height: 10vh;
+    }
+
+    nav h2 {
+        display: none;
+    }
+
+    .nav{
+        justify-content: space-around;
+        overflow: hidden;
+        height: auto;
+    }
+
+    .nav__link {
+        height: 80px;
+        width: 12vw;
+        padding: 1rem;
+        background-color: var(--primary-color);
+        opacity: 0.8;
+    }
+
+        .nav__link a {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-around;
+            align-items: center;
+            color: var(--white);
+            font-size: var(--tablet-font-text-size);
+        }
+
+        #camera-icon {
+            content: url(../../images/icons/camera-ligth-gray.png);
+        }
+
+        #telescope-icon {
+            content: url(../../images/icons/telescope-ligth-gray.png);
+        }
+
+        #agenda-icon {
+            content: url(../../images/icons/calendar-ligth-gay.png);
+        }
+
+        #book-icon {
+            content: url(../../images/icons/book-ligth-gray.png);
+        }
+
+        #envelope-icon {
+            content: url(../../images/icons/envelope-light-gray.png);
+        }
+
+
+
     section {
         margin-bottom: 10rem;
+        padding-top: 6rem;
     }
         .section__img{
             height: 800px;

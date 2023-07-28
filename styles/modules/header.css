@@ -173,7 +173,7 @@ header h1 {
 /* Format desktop */
 @media screen and (min-width: 1200px) {
     header {
-        height: 70vh;
+        height: 80vh;
     }
 
     .stars__sun {
