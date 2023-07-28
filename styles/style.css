@@ -3,6 +3,8 @@
 @import 'modules/main.css';
 @import 'modules/footer.css';
 
+/* import pub */
+@import 'modules/pub.css';
 
 /* Design System */
 :root {
