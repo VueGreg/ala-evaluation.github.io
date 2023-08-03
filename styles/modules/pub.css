@@ -1,16 +1,27 @@
-.nav__link-pub {
-    background-color: var(--primary-color);
+nav {
+    display: none;
 }
 
-    .navbar__icon-pub {
-        height: 3rem;
-        width: 3rem;
-        position: absolute;
-        transform: translateX(-0.5rem) translateY(-3.5rem) rotate(35deg);
+    .nav__link-pub {
+        background-color: var(--primary-color);
     }
+
+        .navbar__icon-pub {
+            height: 3rem;
+            width: 3rem;
+            position: absolute;
+            transform: translateX(-0.5rem) translateY(-3.5rem) rotate(35deg);
+        }
 
 .back-btn {
     margin-top: 3rem;
+
+}
+
+.btn__modify:hover {
+    border: 2px solid var(--secondary-color);
+    color: var(--secondary-color);
+    font-weight: 600;
 }
 
 .section__image-telescope {
@@ -31,6 +42,12 @@
     margin: 3rem 0 3rem 0;
 }
 
+.btn__participate:hover {
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
 .formular__pub {
     margin-top: 30rem;
 }
@@ -38,6 +55,10 @@
     .formular__pub-title {
         text-align: center;
         margin-bottom: 3rem;
+    }
+
+    .formular__pub-row {
+        padding: 0;
     }
 
 .buy {
@@ -67,6 +88,11 @@
         justify-content: space-around;
         align-items: center;
         height: 4rem;
+        width: 10rem;
+    }
+
+    .buy__btn:hover {
+        border: 3px solid var(--secondary-color);
     }
 
         .buy__btn-shopping {
@@ -75,7 +101,32 @@
         }
 
 
+@media screen and (min-width: 600px) {
+    .section__img-pub{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        transform: translateX(-15%);
+    }
+
+    .section__image-shirt {
+        transform: translateX(100%);
+    }
+
+    .buy__click {
+        width: 30vw;
+    }
+
+    .buy__btn {
+        width: 15rem;
+    }
+}
+
 @media screen and (min-width: 1200px) {
+    nav {
+        display: inherit;
+    }
+
     .nav__link-pub {
         background-color: var(--white);
     }
@@ -96,8 +147,18 @@
         text-shadow: 1px 1px 2px var(--primary-color); 
     }
 
-
     #dice-icon {
         content: url(../../images/icons/dice-game-dark-gray.png);
+    }
+
+    .back-btn {
+        position: absolute;
+        left: 25vw;
+        width: 50vw;
+    }
+
+    .section__img-pub{
+
+        transform: translateX(-5%);
     }
 }

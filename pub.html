@@ -82,21 +82,63 @@
         </div>
     </header>
     <main>
+        <nav>
+            <h2>Catégorie</h2>
+            <ul class="nav">
+                <li class="nav__link nav__link-pub">
+                    <a href="pub.html">
+                        <p>Jeu concours</p>
+                        <img class="navbar__icon" id="dice-icon" src="images/icons/dice-game-light-gray.png" alt="Logo d'une paire de dés">
+                        <img class="navbar__icon-pub" src="images/icons/new_fiber_ic.png" alt="Logo écrit new">
+                    </a>
+                </li>
+                <li class="nav__link">
+                    <a href="#">
+                        <p>Galeries</p>
+                        <img class="navbar__icon" id="camera-icon" src="images/icons/camera-dark-gray.png" alt="Logo d'un appareil photo">
+                    </a>
+                </li>
+                <li class="nav__link">
+                    <a href="#">
+                        <p>Le ciel en ce moment</p>
+                        <img class="navbar__icon" id="telescope-icon" src="images/icons/telescope-dark-gray.png" alt="Logo d'un téléscope">
+                    </a>
+                </li>
+                <li class="nav__link">
+                    <a href="#">
+                        <p>Agenda</p>
+                        <img class="navbar__icon" id="agenda-icon" src="images/icons/calendar-dark-gray.png" alt="Logo d'un calendrier">
+                    </a>
+                </li>
+                <li class="nav__link">
+                    <a href="#">
+                        <p>Livre d'or</p>
+                        <img class="navbar__icon" id="book-icon" src="images/icons/book-dark-gray.png" alt="Logo d'un livre d'or">
+                    </a>
+                </li>
+                <li class="nav__link">
+                    <a href="#">
+                        <p>Contact</p>
+                        <img class="navbar__icon" id="envelope-icon" src="images/icons/envelope-dark-gray.png" alt="Logo d'une enveloppe">
+                    </a>
+                </li>
+            </ul>
+        </nav>
         <div class="row justify-content-center back-btn">
-            <div class="col-10">
-                <a class="btn" href="index.html">Retour</a>
+            <div class="col-10 col-md-8">
+                <a class="btn btn__modify" href="index.html">Retour</a>
             </div>
         </div>
 
         <section class="row justify-content-center">
-            <h2 class="col-10 col-lg-8 section__title">Jeu concours </h2>
-            <p class="col-10 col-lg-8 section__text">Pour l’achat d’un t-shirt à l'effigie de l’association, participez au jeu concours et tentez de gagner un télescope Sky-Watcher 130/650 d’une valuer de 280€</p>
-            <div class="col-12 col-md-10 col-lg-8 section__img-pub">
+            <h2 class="col-10 col-md-8 section__title">Jeu concours </h2>
+            <p class="col-10 col-md-8 section__text">Pour l’achat d’un t-shirt à l'effigie de l’association, participez au jeu concours et tentez de gagner un télescope Sky-Watcher 130/650 d’une valuer de 280€</p>
+            <div class="col-12 col-md-8 section__img-pub">
                 <img class="section__image-telescope" src="images/pub/telescope-sky-watcher-130650-sur-monture-starquest.jpg" alt="Image d'un telescope neuf">
                 <img class="section__image-shirt" src="images/pub/Capture.GIF" alt="Imgage du t-shirt imprimé du nom de l'association">
             </div>
             <div class="row justify-content-center">
-                <div class="col-10">
+                <div class="col-10 col-md-8 col-lg-4">
                     <a class="btn btn__participate" href="#form-link">Je participe</a>
                 </div>
             </div>
@@ -126,11 +168,11 @@
                 </div>
 
                 <div class="row justify-content-between">
-                    <div class="col-6 form-floating mb-3">
+                    <div class="col-6 col-md-5 form-floating mb-3 formular__pub-row">
                         <input type="text" class="form-control" id="postal" placeholder="Code postal">
                         <label for="postal">Code postal</label>
                     </div>
-                    <div class="col-6 form-floating mb-3">
+                    <div class="col-6 col-md-5 form-floating mb-3 formular__pub-row">
                         <input type="text" class="form-control" id="city" placeholder="Ville">
                         <label for="city">Ville</label>
                     </div>
