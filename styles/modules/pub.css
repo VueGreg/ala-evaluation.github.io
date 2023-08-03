@@ -1,17 +1,13 @@
-nav {
-    display: none;
+.nav__link-pub {
+    background-color: var(--primary-color);
 }
 
-    .nav__link-pub {
-        background-color: var(--primary-color);
+    .navbar__icon-pub {
+        height: 3rem;
+        width: 3rem;
+        position: absolute;
+        transform: translateX(-0.5rem) translateY(-3.5rem) rotate(35deg);
     }
-
-        .navbar__icon-pub {
-            height: 3rem;
-            width: 3rem;
-            position: absolute;
-            transform: translateX(-0.5rem) translateY(-3.5rem) rotate(35deg);
-        }
 
 .back-btn {
     margin-top: 3rem;
